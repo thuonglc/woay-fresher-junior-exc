@@ -2,8 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 a {
@@ -23,4 +22,263 @@ a {
     color: white;
     background: black;
   }
+}
+
+.main {
+  min-height: 100vh;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1440px;
+  margin: auto;
+  background: #ffffff;
+}
+
+.container {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.container-fluid {
+  display: flex;
+  width: calc(100% - 280px);
+  height: 100%;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header {
+  height: 130px;
+  align-items: center;
+  z-index: 2;
+  background: #ffffff;
+}
+
+.brand h1 {
+  font-size: 18px;
+}
+
+.route {
+  font-size: 14px;
+  padding-left: 3rem;
+}
+
+.landing {
+  background: #f4f1ff;
+  height: 720px;
+  overflow: hidden;
+  position: relative;
+}
+
+.col-4 {
+  width: 40%;
+}
+
+.col-4 p {
+  color: #363049;
+  margin-bottom: 4rem;
+}
+
+.landing-bg-top {
+  position: absolute;
+  width: 1526px;
+  height: 655.91px;
+  top: -18rem;
+  right: -29rem;
+  background: #e6deff;
+  border-radius: 50px;
+  transform: rotate(42deg);
+}
+
+.landing-bg-bottom {
+  position: absolute;
+  width: 1440px;
+  height: 40rem;
+  bottom: -33rem;
+  right: -11rem;
+  background: #f0ecff;
+  border-radius: 50px;
+  transform: rotate(-54deg);
+}
+
+.landing-bg-left {
+  position: absolute;
+  width: 1000px;
+  height: 40rem;
+  bottom: -23rem;
+  left: -57rem;
+  background: #f0ecff;
+  border-radius: 50px;
+  transform: rotate(-45deg);
+}
+
+.landing-button {
+  width: 242px;
+  height: 70px;
+  background: #7951f9;
+  border-radius: 10px;
+  border: 1px solid #0000001c;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0.3px;
+}
+
+.col-7 {
+  width: 70%;
+  height: 100%;
+  position: relative;
+}
+
+.slogan {
+  font-size: 50px;
+  color: #2d1d61;
+}
+
+.landing-img {
+  display: flex;
+  align-items: flex-end;
+  position: absolute;
+  transform: rotate(-29deg);
+  right: 1rem;
+  top: 6rem;
+}
+
+.landing-img-item {
+  height: 200px;
+  width: 275px;
+  margin: 1.5rem;
+  background: #ffffff;
+  box-shadow: 0px 10px 40px rgb(160 142 215 / 20%);
+  border-radius: 20px;
+  padding: 2rem;
+}
+
+.mb-7 {
+  margin-bottom: 7rem;
+}
+
+.img-item-height {
+  height: 285px;
+}
+
+.discount {
+  height: 692px;
+  width: 80%;
+  background: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.discount-item {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #f3f4fe;
+  box-shadow: 0px 50px 115px rgb(165 153 209 / 30%);
+  border-radius: 10px;
+  padding: 4rem 2rem;
+  width: 360px;
+}
+
+.discount-item p {
+  letter-spacing: 0.3px;
+  color: #363049;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.discount-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130%;
+  color: #352b53;
+  margin: 3rem 0 1rem 0;
+}
+
+.exp {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+  margin-top: 6rem;
+}
+
+.exp-left {
+  display: flex;
+  width: calc(100% - 800px);
+  position: relative;
+  transform: rotate(-30deg);
+  margin-left: 4rem;
+}
+
+.exp-right {
+  width: 650px;
+  padding: 0 3rem 0;
+}
+
+.exp-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 130%;
+  color: #2d1d61;
+}
+
+.exp-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150.7%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1px;
+  color: #363049;
+  opacity: 0.8;
+  padding-right: 6rem;
+}
+
+.mt-5 {
+  margin-top: 5rem;
+}
+
+.exp-s {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+  margin-top: 10rem;
+  height: 415px;
+}
+
+.exp-s-left {
+  width: 45%;
+}
+
+.exp-s-desc {
+  padding-right: 11rem;
+}
+
+.exp-s-right {
+  position: relative;
+  width: 35%;
+  transform: rotate(25deg);
+  margin-right: 7rem;
+}
+
+.exp-s-right div:first-child {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.exp-s-right div:last-child {
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
