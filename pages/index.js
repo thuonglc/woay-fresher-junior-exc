@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Image from "next/image";
-import styles from "../styles/Home.module.css";
 import svg from "../public/images/svg.png";
 import svg1 from "../public/images/svg1.png";
 import svg2 from "../public/images/svg2.png";
